@@ -1,0 +1,24 @@
+lights:
+  A:
+    location: '10.0/70.0/120.0'
+  B:
+    location: '10.0/71.0/120.0'
+  C:
+    location: '10.0/72.0/120.0'
+  D:
+    location: '10.0/73.0/120.0'
+levers:
+  A:
+    location: '4.0/70.0/121.0'
+    control:
+      - 'A'
+      - 'B'
+  B:
+    location: '4.0/71.0/121.0'
+    control:
+      - 'B'
+      - 'C'
+  C:
+    location: '4.0/72.0/121.0'
+    control:
+      - 'D'
